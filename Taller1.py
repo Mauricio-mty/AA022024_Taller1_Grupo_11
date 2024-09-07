@@ -84,7 +84,7 @@ while True:
       updateStock(up_data);          #Update call function
   elif new=='3':
       product_name=register();       #Register call function delete format
-      removeProduct(product_name),   #Delete call function
+      removeProduct(product_name[0]),   #Delete call function
   elif new=='4':
       verifyStock();                 #verify stock call function
   elif new=='5':
